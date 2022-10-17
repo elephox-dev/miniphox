@@ -1,0 +1,16 @@
+{
+    "name": "elephox/miniphox-template",
+    "description": "A new Miniphox project.",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "elephox/miniphox": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
