@@ -1,5 +1,5 @@
 {
-    "name": "elephox/miniphox-template",
+    "name": "elephox/miniphox",
     "description": "A new Miniphox project.",
     "type": "project",
     "require": {
