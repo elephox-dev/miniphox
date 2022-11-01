@@ -14,6 +14,9 @@
         }
     },
     "scripts": {
-        "serve": "@php public/server.php"
+        "serve": [
+            "Config::disableProcessTimeout",
+            "@php public/server.php"
+        ]
     }
 }
