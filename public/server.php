@@ -5,8 +5,8 @@ namespace App;
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-use Elephox\Miniphox\Attributes\Get;
 use Elephox\Miniphox\Miniphox;
+use Elephox\Web\Routing\Attribute\Http\Get;
 
 #[Get]
 function index(): string {
